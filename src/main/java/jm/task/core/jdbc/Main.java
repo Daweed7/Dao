@@ -41,9 +41,7 @@ public class Main {
         for (User allUser : allUsers) {
             System.out.println(allUser);
         }
-
         userService.cleanUsersTable();
-
         userService.dropUsersTable();
     }
 }
